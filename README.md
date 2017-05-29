@@ -32,7 +32,7 @@ Send an email to me [sanjitbauli@in.ibm.com](mailto:sanjitbauli@in.ibm.com).
 
 ## Changelog
 
-See the [release page](https://github.com/sanjitbaulibm/ibmui/releases).
+See the [release page](https://github.com/sanjitbauliibm/ibmui/releases).
 
 
 ## Contributers
