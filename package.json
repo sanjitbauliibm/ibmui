@@ -1,5 +1,5 @@
 {
-  "name": "getsetgo",
+  "name": "ibmui",
   "version": "1.0.0",
   "description": "UI generator by IBM",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "author": "sanjitbauli@in.ibm.com",
   "license": "ISC",
   "bin": {
-    "getsetgo": "./index.js"
+    "ibmui": "./index.js"
   },
   "dependencies": {
     "commander": "^2.9.0",

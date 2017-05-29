@@ -1,9 +1,9 @@
 
-# getsetgo
-GetSetGo web development guidelines and project acaffolding 
+# ibmui
+ibmUI web development guidelines and project scaffolding.
  
 ```bash
-getsetgo
+ibmui
 ```
 
 
