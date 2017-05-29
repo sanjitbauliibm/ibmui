@@ -5,8 +5,18 @@ var fs = require('fs-extra');
 var path = require('path');
 var inquirer = require('inquirer');
 var sh = require("shelljs");
+var generate = true;
+process.argv.forEach((val, index) => {
+  //console.log(`${index}: ${val}`);
+  if(val === "--version" || val === "-v"){
+  	generate = false;
+  	var pjson = require('./package.json');
+  	console.log(pjson.version); 
+  }
+});
 
-
+if(!generate)
+	process.exit()
 
 var questions = [
 	{
