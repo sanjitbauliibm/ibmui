@@ -1,6 +1,6 @@
 # ibmui 
 
-<img src="screenshot.png" width="568">
+<img src="https://raw.githubusercontent.com/sanjitbauliibm/ibmui/master/screenshot.png" width="568">
 
 
 ## What's ibmui?

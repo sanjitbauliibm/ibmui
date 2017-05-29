@@ -1,6 +1,6 @@
 {
   "name": "ibmui",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "UI generator by IBM",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,9 @@
     "progress": "^1.1.8",
     "prompt": "^1.0.0",
     "shelljs": "^0.7.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanjitbauliibm/ibmui"
   }
 }
