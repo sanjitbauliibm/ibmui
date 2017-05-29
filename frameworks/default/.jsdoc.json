@@ -1,0 +1,15 @@
+{
+    "opts":{
+        "destination": "./doc/"
+    },
+    "templates" : {
+            "footer": "",
+            "copyright":"© IBM Digital Service Group",
+            "theme" : "simplex",
+            "includeDate" :true,
+            "linenums" : true,
+            "collapseSymbols" : false,
+            "outputSourceFiles" : true,
+            "outputSourcePath" : true
+    }
+}

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8"/>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1" />      
+		<link rel="shortcut icon" href="//www.ibm.com/favicon.ico" />
+		<link rel="IBM.Mobile.redirect" href="self" />
+		
+		<meta name="geo.country" content="US" /> 
+		<meta name="dcterms.rights" content="© Copyright IBM Corp. 2015" /> 
+		<meta name="dcterms.date" content="2016-10-04" /> 
+		<meta name="description" content="" /> 
+		<meta name="keywords" content="" /> 
+		<meta name="robots" content="index, follow" />
+		
+		<title>IBM - Homepage</title>
+		<script type="text/javascript">
+        function getParameterByName(name, url) {
+            if (!url) {
+              url = window.location.href;
+            }
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+	      var urxLocale = getParameterByName('lang') || 'us-en';
+	      urxLocale = urxLocale.split('-');
+	      var cc = urxLocale[0]; var lc = urxLocale[1];
+	      var LcCc = lc+'-'+cc.toUpperCase();
+	      document.getElementsByTagName("html")[0].setAttribute("lang", LcCc);
+
+    </script>
+
+		<script> 
+			digitalData = {
+				"page":{
+					"category":{
+						"primaryCategory":"00Z"
+					},
+					"pageInfo":{
+						"effectiveDate":"2015-10-19",
+						"expiryDate":"2020-10-19",
+                    	"language": LcCc,
+						"publisher":"IBM Corporation",
+						"version":"v18",
+						"ibm":{
+							"contentDelivery":"Starwiz",
+                        	"country": cc,
+							"industry":"ZZ",
+							"owner":"Starwiz",
+							"subject":"SVU05",
+							"type":"CT052"
+						},
+			          "urx": {
+			            enabled:true
+			          }
+					}
+				}
+			};
+		 </script>
+		
+		<script src="//www.ibm.com/common/stats/ida_stats.js"></script>
+		<link href="//1.www.s81c.com/common/v18/css/www.css" rel="stylesheet" />
+		<script src="//1.www.s81c.com/common/v18/js/www.js"></script>
+	
+		<!--build:css css/styles.min.css-->
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<!--endbuild-->
+
+		<script type="text/javascript">
+			IBMCore.common.util.config.set({
+				"masthead":{
+					"type":"alternate"
+				},
+				"footer":{
+					"type":"alternate"
+				}
+			});
+
+
+	      function addModaltoSignIn(){
+			    var loginLink = jQuery('#ibm-signin-minimenu-container').find('[data-linktype="signin"] a');
+			    loginLink.addClass("urx-modal-login");
+			    loginLink.data("urx-id","myibm");
+			    loginLink.off();
+			    loginLink.click(function(e){
+			        e.preventDefault();
+			        urx.ModalCtrl.bindLoginModalCta(loginLink);
+			    })
+			}
+			    // Subscribe to the profile's ready event then call the API when ready.
+			IBMCore.common.module.masthead.subscribe("profileMenuReady", "customjs", function(){
+			    addModaltoSignIn();
+			}).runAsap(function(){
+			    addModaltoSignIn();
+			});
+
+		 </script>
+		
+		<!-- V18 core -->
+		<link href="//1.www.s81c.com/common/v18/css/tables.css" rel="stylesheet">
+		<script src="//1.www.s81c.com/common/v18/js/tables.js"></script>
+		
+		<script src="//1.www.s81c.com/common/v18/js/dyntabs.js"></script>
+		
+		<link href="//1.www.s81c.com/common/v18/css/forms.css" rel="stylesheet">
+		<script src="//1.www.s81c.com/common/v18/js/forms.js"></script>
+		
+		<link href="//1.www.s81c.com/common/v18/css/grid-fluid.css" rel="stylesheet">
+		
+		<link href="//1.www.s81c.com/common/v18/css/textcolumns.css" rel="stylesheet">
+		
+	</head>
+
+	<body id="ibm-com" class="ibm-type">
+		<div id="ibm-top" class="ibm-landing-page">
+			
+			<!-- MASTHEAD_BEGIN -->
+			<div id="ibm-masthead" role="banner" aria-label="IBM">
+				<div id="ibm-mast-options">
+					<ul role="toolbar" aria-labelledby="ibm-masthead">
+						<li id="ibm-geo" role="presentation"><a href="http://www.ibm.com/planetwide/select/selector.html" role="button" aria-label="United States selected - Choose a country">United States</a></li>
+						<li id="ibm-language" role="presentation"><span class="ibm-active" role="button" aria-disabled="true">English</span> <a href="http://www.ibm.com/us/en/" lang="en-US" role="button">English</a></li>
+					</ul>
+				</div>
+				<div id="ibm-universal-nav">    
+					<nav role="navigation" aria-label="IBM">
+						<div id="ibm-home"><a href="http://www.ibm.com/us/en/">IBM®</a></div>
+						<ul id="ibm-menu-links" role="toolbar" aria-label="Site map">
+							<li><a href="http://www.ibm.com/sitemap/us/en/">Site map</a></li>
+						</ul>
+					</nav>
+			  
+					<div id="ibm-search-module" role="search" aria-labelledby="ibm-masthead">
+						<form id="ibm-search-form" action="http://www.ibm.com/Search/" method="get">
+							<p>
+								<label for="q">IBM</label>
+								<input type="text" maxlength="100" value="" placeholder="Search" name="q" id="q" aria-label="Search"/>
+								<input type="hidden" value="18" name="v"/>
+								<input type="hidden" value="utf" name="en"/>
+								<input type="hidden" value="en" name="lang"/>
+								<input type="hidden" value="us" name="cc"/>
+								<input type="submit" id="ibm-search" class="ibm-btn-search" value="Submit"/>
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- MASTHEAD_END -->
+		  
+			<div id="ibm-content-wrapper">
+				<main role="main">
+					<div id="ibm-pcon">
+						<div id="ibm-content">
+							<div id="ibm-content-body">
+								<div id="ibm-content-main" class="ibm-padding-top-0">
+									<!-- pattern HTML -->
+									<!-- pattern HTML -->
+									<div class="ibm-padding-top-r2 ibm-alternate-background" style="background-image: url('https://gtt.dst.ibm.com/tools/starwiz/res/app/preview/temp/backg_4.jpg'); background-position: center center; background-size: cover;">
+										<div class="ibm-columns ibm-padding-bottom-r2">
+											<div class="ibm-col-2-1 ibm-col-medium-6-4">
+												<h1 class="ibm-h1 ibm-large">Lorem ipsum dolor sit</h1>
+												<p class="ibm-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+												<p class="ibm-btn-row">
+													<a href="#replace" class="ibm-btn-pri ibm-btn-purple-50">Learn more</a>
+													<a href="#replace" class="ibm-btn-pri ibm-btn-white-core">Visit page</a>
+												</p>
+											</div>
+										</div>
+										<div class="ibm-background-purple-50">
+											<div class="ibm-columns ibm-seamless ibm-padding-bottom-0 ibm-center" data-widget="setsameheight" data-items=">div">
+												<div class="ibm-col-4-1 ibm-col-small-2-1">
+													<img src="https://gtt.dst.ibm.com/tools/starwiz/res/app/preview/temp/bar-chart_128.svg" width="60" height="60" alt="" />
+													<p class="ibm-padding-bottom-0 ibm-h3 ibm-h4-small ibm-light">Lorem ipsum dolor sit<br><span class="ibm-fontsize-body ibm-small-small">Lorem ipsum dolor</span></p>
+												</div>
+												<div class="ibm-col-4-1 ibm-col-small-2-1 ibm-background-purple-60">
+													<img src="https://gtt.dst.ibm.com/tools/starwiz/res/app/preview/temp/network-chart_128.svg" width="60" height="60" alt="" />
+													<p class="ibm-padding-bottom-0 ibm-h3 ibm-h4-small ibm-light">Lorem ipsum dolor sit<br><span class="ibm-fontsize-body ibm-small-small">Lorem ipsum dolor</span></p>
+												</div>
+												<div class="ibm-col-4-1 ibm-col-small-2-1 ibm-background-purple-70">
+													<img src="https://gtt.dst.ibm.com/tools/starwiz/res/app/preview/temp/line-chart_128.svg" width="60" height="60" alt="" />
+													<p class="ibm-padding-bottom-0 ibm-h3 ibm-h4-small ibm-light">Lorem ipsum dolor sit<br><span class="ibm-fontsize-body ibm-small-small">Lorem ipsum dolor</span></p>
+												</div>
+												<div class="ibm-col-4-1 ibm-col-small-2-1 ibm-background-purple-80">
+													<img src="https://gtt.dst.ibm.com/tools/starwiz/res/app/preview/temp/dashboard_128.svg" width="60" height="60" alt="" />
+													<p class="ibm-padding-bottom-0 ibm-h3 ibm-h4-small ibm-light">Lorem ipsum dolor sit<br><span class="ibm-fontsize-body ibm-small-small">Lorem ipsum dolor</span></p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- pattern HTML -->
+									<div class="ibm-padding-top-r2 ibm-background-white-core ibm-padding-bottom-r2 ibm-hidden-bg-medium ibm-hidden-bg-small" style="background-image: url('https://gtt.dst.ibm.com/tools/starwiz/res/app/preview/temp/backg_20.jpg'); background-repeat: no-repeat; background-size: 50% 100%;">
+									    <div class="ibm-columns ibm-vertical-center">
+									        <div class="ibm-col-2-1">
+									            <div class="ibm-padding-content">
+									                <a class="ibm-blocklink ibm-background-white-core ibm-highlight-bg-blue-50 ibm-padding-content" href="#replace">
+									                    <p class="ibm-h4 ibm-light ibm-padding-bottom-0 ibm-icon-nolink">
+									                        <span class="ibm-forward-link">Lorem ipsum dolor sit amet</span>
+									                    </p>
+									                </a>
+									                <br>
+									                <a class="ibm-blocklink ibm-background-white-core ibm-highlight-bg-blue-50 ibm-padding-content" href="#replace">
+									                    <p class="ibm-h4 ibm-light ibm-padding-bottom-0 ibm-icon-nolink">
+									                        <span class="ibm-forward-link">Lorem ipsum dolor sit amet</span>
+									                    </p>
+									                </a>
+									                <br>
+									                <a class="ibm-blocklink ibm-background-white-core ibm-highlight-bg-blue-50 ibm-padding-content" href="#replace">
+									                    <p class="ibm-h4 ibm-light ibm-padding-bottom-0 ibm-icon-nolink">
+									                        <span class="ibm-forward-link">Lorem ipsum dolor sit amet</span>
+									                    </p>
+									                </a>
+									            </div>
+									        </div>
+									        <div class="ibm-col-2-1">
+									            <div class="ibm-padding-content">
+									                <h2 class="ibm-h1 ibm-light ibm-textcolor-blue-50">
+									                    Lorem ipsum <strong>dolor sit amet</strong>:</h2>
+									                <p class="ibm-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									            </div>
+									        </div>
+									    </div>
+									</div>
+									<!-- pattern HTML -->
+									<div class="ibm-background-gray-80 ibm-padding-top-2 ibm-padding-bottom-2">
+									    <div class="ibm-columns ibm-padding-bottom-2 ibm-alternate-background ibm-center">
+									        <div class="ibm-col-6-4 ibm-center-block ibm-col-medium-1-1">
+									            <h2 class="ibm-h2">Lorem ipsum dolor sit amet</h2>
+									            <p class="ibm-h4 ibm-light ibm-padding-bottom-0">Lorem ipsum dolor
+									                <strong>Lorem ipsum dolor</strong> sit amet</p>
+									        </div>
+									    </div>
+									    <div class="ibm-columns ibm-cards" data-widget="setsameheight" data-items=".ibm-card">
+									        <div class="ibm-col-6-2 ibm-col-medium-2-1">
+									            <div class="ibm-card ibm-card--noborder">
+									                <div class="ibm-card__heading ibm-background-blue-50 ibm-alternate-background" style="border-top: 1px solid #5aaafa; border-left: 1px solid #5aaafa; border-right: 1px solid #5aaafa;">
+									                    <span class="ibm-small ibm-icon-nolink ibm-cloud-link">Lorem ipsum:</span>
+									                </div>
+									                <div class="ibm-card__content">
+									                    <h3 class="ibm-h2 ibm-textcolor-blue-50">Lorem ipsum <strong>sit</strong>
+									                    </h3>
+									                    <p class="ibm-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									                    tempor incididunt ut labore et dolore magna aliqua.</p>
+									                </div>
+									                <div class="ibm-card__bottom">
+									                    <p class="ibm-ind-link ibm-padding-bottom-0">
+									                        <a href="#replace" class="ibm-forward-link">Lorem ipsum sit</a>
+									                    </p>
+									                </div>
+									            </div>
+									        </div>
+									        <div class="ibm-col-6-2 ibm-col-medium-2-1">
+									            <div class="ibm-card ibm-card--noborder">
+									                <div class="ibm-card__heading ibm-background-blue-50 ibm-alternate-background" style="border-top: 1px solid #5aaafa; border-left: 1px solid #5aaafa; border-right: 1px solid #5aaafa;">
+									                    <span class="ibm-small ibm-icon-nolink ibm-marketplace-link">Lorem ipsum:</span>
+									                </div>
+									                <div class="ibm-card__content">
+									                    <h3 class="ibm-h2 ibm-textcolor-blue-50">Lorem ipsum sit
+									                        <strong>dolor</strong>
+									                    </h3>
+									                    <p class="ibm-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									                    tempor incididunt ut labore et dolore magna aliqua.</p>
+									                </div>
+									                <div class="ibm-card__bottom">
+									                    <p class="ibm-button-link ibm-padding-bottom-0">
+									                        <a href="#replace" class="ibm-btn-pri ibm-btn-blue-50">Lorem ipsum dolor</a>
+									                    </p>
+									                </div>
+									            </div>
+									        </div>
+									        <div class="ibm-col-6-2 ibm-col-medium-2-1">
+									            <div class="ibm-card ibm-card--noborder">
+									                <div class="ibm-card__heading ibm-background-blue-50 ibm-alternate-background" style="border-top: 1px solid #5aaafa; border-left: 1px solid #5aaafa; border-right: 1px solid #5aaafa;">
+									                    <span class="ibm-small ibm-icon-nolink ibm-twitter-link">Lorem ipsum:</span>
+									                </div>
+									                <div class="ibm-card__content">
+									                    <h3 class="ibm-h2 ibm-textcolor-blue-50">Lorem ipsum sit
+									                        <strong>dolor</strong>
+									                    </h3>
+									                    <p class="ibm-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									                    tempor incididunt ut labore et dolore magna aliqua.</p>
+									                </div>
+									                <div class="ibm-card__bottom">
+									                    <p class="ibm-ind-link ibm-padding-bottom-0">
+									                        <a href="#replace" class="ibm-forward-link">Lorem ipsum</a>
+									                    </p>
+									                </div>
+									            </div>
+									        </div>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</main>
+			
+				<div id="ibm-related-content">
+					<div id="ibm-merchandising-module">
+						<!-- MTE will generate this -->
+							<!-- <aside role="complementary" aria-label="Related content"> MTE dynamic modules populate in here. <aside> -->
+						<!-- /MTE -->
+					</div>
+				</div>      
+			</div>
+	
+			<!-- FOOTER_BEGIN -->
+			<div id="ibm-footer-module"><!-- Dynamic footer links inserted here inside a <section> --></div>
+		  
+		  
+			<footer role="contentinfo" aria-label="IBM">
+				<div id="ibm-footer">
+					<ul>
+						<li><a href="http://www.ibm.com/contact/us/en/">Contact</a></li>
+						<li><a href="http://www.ibm.com/privacy/us/en/">Privacy</a></li>
+						<li><a href="http://www.ibm.com/legal/us/en/">Terms of use</a></li>
+						<li><a href="http://www.ibm.com/accessibility/us/en/">Accessibility</a></li>
+					</ul>
+				</div>
+			</footer>
+		  <!-- FOOTER_END -->
+		</div>
+
+	<!--build:js js/app.min.js -->
+    <script type="text/javascript" src="scripts/app.js"></script>
+    <script type="text/javascript" src="scripts/controllers/loginCtrl.js"></script>
+    <!--endbuild-->
+	</body>
+</html>

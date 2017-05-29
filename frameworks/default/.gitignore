@@ -1,0 +1,14 @@
+dist
+node_modules
+.DS_Store
+/.project
+cert.pem
+key.pem
+constants.js
+js/templates/
+coverage
+npm-debug.log*
+js-coverage
+.settings
+.notes
+doc
